@@ -1,0 +1,4 @@
+ytd-watch-flexy[theater] div#player-theater-container.ytd-watch-flexy 
+{
+    max-height: calc(100vh - 56px);
+}
