@@ -1,0 +1,14 @@
+{
+    "name": "Bigger Theater Mode",
+    "version": "1.0",
+    "description": "Adds Bigger Theater Button to YouTube. Enlarges video as much as possible.",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/watch*"],
+            "js": ["BiggerTheaterMode.js"]
+        }
+    ],
+    "manifest_version": 2
+}
+  
