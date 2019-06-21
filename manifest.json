@@ -1,8 +1,7 @@
 {
     "name": "Bigger Theater Mode",
     "version": "0.0.0.1",
-    "description": "Increases the size of YouTube's Theater mode. Decreases the padding at the bottom from 169px to 56px. Applicable to 1080p+ resolution screens.",
-    "permissions": ["activeTab"],
+    "description": "Increases the size of YouTube's Theater mode.",
     "content_scripts": [
         {
             "matches": ["https://www.youtube.com/*"],
