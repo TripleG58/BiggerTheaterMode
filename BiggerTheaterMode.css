@@ -1,3 +1,17 @@
+#player-wide-container video,
+#player-wide-container .html5-video-container {
+    height: 100%;
+}
+#player-wide-container {
+    max-height: calc(100vh - 56px);
+}
+@media all and (display-mode: fullscreen) {
+    #player-wide-container {
+        max-height: 100vh;
+    }
+}
+
+/* OLD CODE: 
 ytd-watch-flexy[theater] div#player-theater-container.ytd-watch-flexy 
 {
     max-height: calc(100vh - 56px);
@@ -9,3 +23,4 @@ ytd-watch-flexy[theater] div#player-theater-container.ytd-watch-flexy
         max-height: 100vh;
     }
 }
+*/
