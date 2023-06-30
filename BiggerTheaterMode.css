@@ -1,7 +1,9 @@
 #player-wide-container video,
 #player-wide-container .html5-video-container {
-    height: 100%;
+    height: 100% !important;
 }
-#player-wide-container {
-    max-height: calc(100vh - 56px);
+@media not all and (display-mode: fullscreen) {
+    #player-wide-container {
+        max-height: calc(100vh - 56px) !important;
+    }
 }
