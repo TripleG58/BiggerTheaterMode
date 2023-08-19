@@ -1,12 +1,3 @@
-#player-wide-container {
-    min-height: initial !important;
-}
-#player-wide-container video,
-#player-wide-container .html5-video-container {
-    height: 100% !important;
-}
-@media not all and (display-mode: fullscreen) {
-    #player-wide-container {
-        max-height: calc(100vh - 56px) !important;
-    }
+#player-full-bleed-container {
+    min-height: calc(100vh - 56px) !important;
 }
